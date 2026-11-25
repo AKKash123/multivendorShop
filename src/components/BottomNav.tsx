@@ -34,7 +34,7 @@ const navItems = [
   },
   {
     label: "Account",
-    href: "/account",
+    href: "/login",
     icon: UserRound,
   },
 ];

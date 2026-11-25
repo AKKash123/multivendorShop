@@ -223,6 +223,7 @@ export default async function HomePage() {
             <Link href="/products">Shop</Link>
             <Link href="/vendor/register">Become a seller</Link>
             <Link href="/orders">My orders</Link>
+            <Link href="/login">login</Link>
           </nav>
 
           <div className="header-actions">
@@ -566,6 +567,7 @@ export default async function HomePage() {
               <Link href="/products">All products</Link>
               <Link href="/cart">Shopping cart</Link>
               <Link href="/orders">My orders</Link>
+              <Link href="/login">login</Link>
             </div>
 
             <div className="footer-links">
