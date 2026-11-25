@@ -110,6 +110,9 @@ See `.env.example`. Never commit real secrets. Firebase Admin and Razorpay secre
 The proposed development with an estimated 8–10 week delivery timeline. Hosting, domain, third-party transaction fees, paid Firebase usage, map provider fees, shipping charges and external provider approvals are separate.
 
 #Folder Architecture
+## 📁 Project Folder Structure
+
+```text
 multivendor-marketplace/
 │
 ├── public/
@@ -120,13 +123,14 @@ multivendor-marketplace/
 │   └── offline.html
 │
 ├── prisma/
-│   ├── schema.prisma
 │   ├── migrations/
+│   ├── schema.prisma
 │   └── seed.ts
 │
 ├── src/
 │   │
 │   ├── app/
+│   │   │
 │   │   ├── (store)/
 │   │   │   ├── page.tsx
 │   │   │   ├── products/
@@ -213,6 +217,7 @@ multivendor-marketplace/
 │   │   └── notifications/
 │   │
 │   ├── lib/
+│   │   ├── validations/
 │   │   ├── prisma.ts
 │   │   ├── firebase-admin.ts
 │   │   ├── firebase-client.ts
@@ -220,7 +225,6 @@ multivendor-marketplace/
 │   │   ├── maps.ts
 │   │   ├── auth.ts
 │   │   ├── permissions.ts
-│   │   ├── validations/
 │   │   └── utils.ts
 │   │
 │   ├── services/
@@ -243,3 +247,4 @@ multivendor-marketplace/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
